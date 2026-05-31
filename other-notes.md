@@ -1,3 +1,8 @@
+# Summary
+Claude Code = Runtime
+CLAUDE.md = policy
+Skills = workflows
+uv = environment 
 # Use uv
 ### Python Package Management with uv
 ```
