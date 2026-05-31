@@ -5,7 +5,22 @@ CLAUDE.md = policy
 
 Skills = workflows
 
+## To work effectively:
+
+Install → claude
+
+Init → claude init
+
+Add uv → clean env
+
+Create skill → .claude/skills/.../SKILL.md
+
+Run → claude
+
+Debug → claude --debug
+
 uv = environment 
+
 # Use uv
 ### Python Package Management with uv
 ```
