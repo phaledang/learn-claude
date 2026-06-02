@@ -1,0 +1,326 @@
+1. ✅ Summary of Page Content
+URL: https://anthropic.skilljar.com/claude-101/383393
+Overview
+
+Topic: Introduction to Projects (Claude)
+Duration: ~20 minutes
+Focus: How to use Projects as structured workspaces in Claude
+
+Learning Objectives
+
+Explain what projects are and when to use them
+Create a project with:
+
+Name
+Description
+Visibility settings
+
+
+Add documents/files to build a knowledge base
+Write project instructions to control Claude’s behavior
+Share projects for collaboration (Team/Enterprise)
+
+Key Concepts
+✅ What are Projects
+
+Self-contained workspaces with:
+
+Memory
+Chat history
+Knowledge base
+Custom instructions
+
+
+Designed for specific workstreams
+Avoid re-uploading files across chats
+
+✅ Knowledge Base
+
+Upload files once → reused across all chats
+Supports:
+
+PDF, DOCX, CSV, TXT, HTML, etc.
+
+
+Enhances Claude’s understanding of context
+
+✅ Project Instructions
+
+Define how Claude behaves:
+
+Tone
+Style
+Expertise level
+Output format
+
+
+Apply to all conversations in the project
+Can automate workflows (e.g., summarize transcripts)
+
+✅ Scaling with RAG
+
+Automatic Retrieval Augmented Generation (RAG) when needed
+Benefits:
+
+Handles large knowledge bases
+Retrieves only relevant information
+Expands capacity up to 10x
+
+
+
+✅ Collaboration (Team/Enterprise)
+
+Share projects with teammates
+Permission levels:
+
+Can view → read-only + chat
+Can edit → full collaboration
+Owner → full control
+
+
+
+
+2. ✅ Structured Content Sections
+📌 What Projects Are
+
+Dedicated environments for ongoing work
+Combine:
+
+Context (knowledge)
+Behavior (instructions)
+Collaboration
+
+
+Suitable for:
+
+Long-running workflows
+Repeated usage scenarios
+
+
+
+
+📌 When to Use Projects
+
+Ongoing work instead of one-off tasks
+You have:
+
+Reusable reference materials
+Standard response requirements
+Team collaboration needs
+
+
+
+
+📌 Creating a Project
+Step 1: Setup
+
+Go to Projects
+Click + New Project
+Provide:
+
+Name
+Description
+Visibility (private/shared)
+
+
+
+Step 2: Add Instructions
+
+Define:
+
+Context of project
+Process steps
+Tone/style
+Specific requirements
+
+
+Example:
+
+“Use professional tone”
+“Always include CTA”
+
+
+
+Step 3: Build Knowledge Base
+
+Upload:
+
+Reports
+Guidelines
+Templates
+Historical data
+
+
+Best practice:
+
+Use descriptive filenames
+
+
+
+
+📌 Knowledge Base Handling
+
+Claude:
+
+Searches relevant content automatically
+Does NOT load everything into memory
+
+
+RAG:
+
+Activated when large data
+Improves scalability and accuracy
+
+
+
+
+📌 Collaboration Features
+
+Share with:
+
+Individuals
+Entire organization
+
+
+Permissions:
+
+View → read/chat only
+Edit → modify content
+Owner → full control
+
+
+
+
+📌 Example Use Cases
+
+Product launch workspace
+Research hub
+Client account knowledge base
+Event planning workspace
+Job description generator
+
+
+📌 Best Practices
+
+Start small and focused
+Keep knowledge updated
+Write clear instructions
+Use descriptive filenames
+Reference documents explicitly in prompts
+
+
+3. ✅ Q&A
+Q1: What is a project in Claude?
+
+A workspace with memory, chats, knowledge, and instructions
+
+Q2: When should you use a project?
+
+For ongoing work with reusable materials and consistent requirements
+
+Q3: What is the purpose of project instructions?
+
+To guide Claude’s behavior across all chats
+
+Q4: What does the knowledge base do?
+
+Stores files for Claude to reference automatically
+
+Q5: How does Claude handle large data?
+
+Uses RAG to retrieve relevant content dynamically
+
+Q6: What permissions exist in collaboration?
+
+Can view, Can edit, Owner
+
+Q7: Why use descriptive file names?
+
+Helps Claude retrieve correct information
+
+
+4. ✅ Quiz
+Q1
+What is a key feature of projects?
+
+A. Temporary storage
+B. One-time chat
+C. Self-contained workspace ✅
+D. Public website
+
+
+Q2
+What triggers RAG mode?
+
+A. Small dataset
+B. Large knowledge base ✅
+C. Internet access
+D. User request
+
+
+Q3
+Which is NOT part of a project?
+
+A. Knowledge base
+B. Instructions
+C. Chat history
+D. External API (default) ✅
+
+
+Q4
+What does “Can edit” allow?
+
+A. View only
+B. Modify project ✅
+C. Delete account
+D. Read emails
+
+
+Q5
+Why use project instructions?
+
+A. Store files
+B. Control Claude’s responses ✅
+C. Increase speed
+D. Enable internet
+
+
+5. ✅ Key Takeaways
+
+Projects = persistent AI workspace with memory
+Core components:
+
+Knowledge base
+Instructions
+Chat history
+
+
+RAG:
+
+Enables scaling without losing quality
+
+
+Instructions = program Claude behavior
+Best for:
+
+Long-running workflows
+Team collaboration
+
+
+File naming impacts retrieval quality
+Projects reduce repeated work significantly
+
+
+6. ✅ References
+
+
+Original page:
+
+Introduction to Projects - Claude 101
+
+
+
+Additional references:
+
+https://docs.anthropic.com/
+https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data
