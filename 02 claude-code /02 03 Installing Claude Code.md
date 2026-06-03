@@ -28,9 +28,29 @@ Page: https://anthropic.skilljar.com/claude-code-101/469790
   - Web → GitHub repo only
 
 ---
+## Steps
+### MacOS / Ubuntu / Linux 
+Install
+```
+curl -fsSL https://claude.ai/install.sh | bash
 
+```
+
+Reload shell (if needed)
+```
+source ~/.bashrc
+```
+Verify install
+```
+claude --version
+
+```
+
+Start claude
+```
+claude
+```
 ## Q&A
-
 **Q: What environments can Claude Code run on?**  
 A: Terminal, VS Code, JetBrains IDEs, Desktop app, and Web (GitHub repos).
 
