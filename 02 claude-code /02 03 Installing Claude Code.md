@@ -76,6 +76,8 @@ claude --version
 
 Start claude
 ```
+mkdir demo-claude
+cd demo-claude
 claude
 ```
 ## Q&A
