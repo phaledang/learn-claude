@@ -29,11 +29,22 @@ Page: https://anthropic.skilljar.com/claude-code-101/469790
 
 ---
 ## Steps
-### MacOS / Ubuntu / Linux 
 Install
+
+Ubuntu / Linux 
 ```
 curl -fsSL https://claude.ai/install.sh | bash
 
+```
+MacOS
+
+native installer
+```
+curl -fsSL https://claude.ai/install.sh | bash
+```
+Homebrew 
+```
+brew install --cask claude-code
 ```
 
 Reload shell (if needed)
