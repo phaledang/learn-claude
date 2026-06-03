@@ -80,6 +80,8 @@ mkdir demo-claude
 cd demo-claude
 claude
 ```
+Claude now has access to this folder (important concept from your training)
+
 ## Q&A
 **Q: What environments can Claude Code run on?**  
 A: Terminal, VS Code, JetBrains IDEs, Desktop app, and Web (GitHub repos).
