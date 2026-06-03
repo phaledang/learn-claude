@@ -46,6 +46,23 @@ Homebrew
 ```
 brew install --cask claude-code
 ```
+Windows
+
+Powershell
+```
+irm https://claude.ai/install.ps1 | iex
+```
+CMD
+```
+curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
+```
+WinGet(package manager)
+```
+winget install Anthropic.ClaudeCode
+
+winget upgrade Anthropic.ClaudeCode
+```
+
 
 Reload shell (if needed)
 ```
