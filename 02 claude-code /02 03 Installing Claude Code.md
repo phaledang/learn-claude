@@ -156,3 +156,7 @@ A: It only works with GitHub repositories.
 - https://anthropic.skilljar.com/claude-code-101/469790
 - https://support.claude.com/
 - https://claude.ai/code
+Claude Code Official Setup Docs [code.claude.com]
+Claude Code Quickstart Guide [code.claude.com]
+Homebrew Claude Code Package [formulae.brew.sh]
+Installation overview (guide) [inventivehq.com]
