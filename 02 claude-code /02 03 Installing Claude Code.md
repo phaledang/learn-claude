@@ -28,35 +28,34 @@ Page: https://anthropic.skilljar.com/claude-code-101/469790
   - Web → GitHub repo only
 
 ---
-## Steps
-Install
+## Install
 
-Ubuntu / Linux 
+### Ubuntu / Linux 
 ```
 curl -fsSL https://claude.ai/install.sh | bash
 
 ```
-MacOS
+### MacOS
 
-native installer
+#### native installer
 ```
 curl -fsSL https://claude.ai/install.sh | bash
 ```
-Homebrew 
+#### Homebrew 
 ```
 brew install --cask claude-code
 ```
-Windows
+### Windows
 
-Powershell
+#### Powershell
 ```
 irm https://claude.ai/install.ps1 | iex
 ```
-CMD
+#### CMD
 ```
 curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
 ```
-WinGet(package manager)
+#### WinGet(package manager)
 ```
 winget install Anthropic.ClaudeCode
 
@@ -64,17 +63,17 @@ winget upgrade Anthropic.ClaudeCode
 ```
 
 
-Reload shell (if needed)
+## Reload shell (if needed)
 ```
 source ~/.bashrc
 ```
-Verify install
+## Verify install
 ```
 claude --version
 
 ```
 
-Start claude
+## Start claude
 ```
 mkdir demo-claude
 cd demo-claude
