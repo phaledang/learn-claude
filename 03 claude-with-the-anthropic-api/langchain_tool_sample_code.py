@@ -1,3 +1,6 @@
+### packages
+# pip install langchain langchain-anthropic python-dotenv
+###
 from langchain_anthropic import ChatAnthropic
 from langchain_core.tools import tool
 from langchain.agents import create_tool_calling_agent, AgentExecutor
