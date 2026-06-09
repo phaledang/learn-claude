@@ -1,0 +1,24 @@
+# Engineering Knowledge Base
+
+## Incident Summary
+The payments service experienced intermittent failures during peak traffic.
+Engineers traced the issue to a retry storm between the API gateway and the order service.
+The immediate mitigation was to reduce retry counts and scale out the order service.
+
+## Root Cause Analysis
+The timeout value was shorter than the average downstream response time under heavy load.
+This caused duplicate requests, elevated queue depth, and noisy alerts.
+
+## Medical Research Notes
+A separate research team documented how insects can act as disease vectors.
+The report discusses how certain species spread pathogens in ways that are unrelated to software bugs, despite the shared use of the word bug.
+
+## Platform Improvements
+The platform team planned improvements for logging, tracing, and semantic search over support tickets.
+They proposed splitting long reports into smaller chunks before generating embeddings so that retrieval results would stay focused on a single topic.
+
+## Action Items
+1. Update timeout configuration.
+2. Re-run load tests.
+3. Evaluate sentence-based and structure-based chunking.
+4. Compare manual pipelines with framework-based orchestration.
