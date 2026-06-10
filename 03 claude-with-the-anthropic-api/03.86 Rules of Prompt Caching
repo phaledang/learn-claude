@@ -1,0 +1,159 @@
+## 📘 **Rules of Prompt Caching**
+
+Source: [Rules of prompt caching](https://anthropic.skilljar.com/claude-with-the-anthropic-api/287770)
+
+***
+
+# 1. 🔍 Summary
+
+**Prompt caching in Claude** stores previously computed processing work so it can be reused in follow-up requests → improving **latency and cost efficiency**. [\[Rules of p...pt caching\]](https://anthropic.skilljar.com/claude-with-the-anthropic-api/287770)
+
+### Key mechanics:
+
+* Initial request **writes computation to cache**
+* Subsequent requests **reuse cached results** if content is identical [\[Rules of p...pt caching\]](https://anthropic.skilljar.com/claude-with-the-anthropic-api/287770)
+* Cache validity:
+  * **Lifetime: 1 hour** [\[Rules of p...pt caching\]](https://anthropic.skilljar.com/claude-with-the-anthropic-api/287770)
+  * Only works when **re-sending identical content**
+
+### Core concepts:
+
+* ❗ Not automatic → requires **manual cache breakpoints**
+* Cache applies only to:
+  * Content **before the breakpoint**
+* Any small change (e.g., adding a word) → **invalidates cache** [\[Rules of p...pt caching\]](https://anthropic.skilljar.com/claude-with-the-anthropic-api/287770)
+
+***
+
+# 2. ❓ Q\&A (from page)
+
+### Q1. What is prompt caching?
+
+* A mechanism that stores model computation results to reuse in future requests.
+
+### Q2. When does caching work?
+
+* Only when repeated requests contain **identical content up to the breakpoint**.
+
+### Q3. How long does cache last?
+
+* **1 hour**.
+
+### Q4. Is caching automatic?
+
+* ❌ No → requires manual insertion of `cache_control`.
+
+### Q5. What is a cache breakpoint?
+
+* A marker indicating **where caching should occur**.
+
+### Q6. What happens if content changes slightly?
+
+* Cache becomes **invalid → full recomputation required**.
+
+### Q7. Where can caching be applied?
+
+* System prompts
+* Tool definitions
+* Messages
+* Images
+* Tool results [\[Rules of p...pt caching\]](https://anthropic.skilljar.com/claude-with-the-anthropic-api/287770)
+
+### Q8. Does caching span multiple messages?
+
+* ✅ Yes → can include entire conversation history.
+
+***
+
+# 3. 🧠 Quiz
+
+### Q1. What triggers a cache hit?
+
+A. Similar content  
+B. Identical content before breakpoint ✅  
+C. Same intent  
+D. Same API key
+
+***
+
+### Q2. What must be added manually?
+
+A. Token limit  
+B. Cache breakpoint ✅  
+C. Temperature  
+D. Stop sequence
+
+***
+
+### Q3. What invalidates cache?
+
+A. Changing model  
+B. Adding small text ✅  
+C. Increasing tokens  
+D. Using tools
+
+***
+
+### Q4. Cache applies to:
+
+A. Entire message  
+B. Only after breakpoint  
+C. Only before breakpoint ✅  
+D. Only system prompt
+
+***
+
+### Q5. Minimum token requirement?
+
+A. 256  
+B. 512  
+C. 1024 ✅  
+D. No limit
+
+***
+
+# 4. ⚡ Key Takeaways
+
+* Prompt caching = **performance optimization** (cost + speed)
+* Requires **explicit control via breakpoints**
+* Works only with **exact content match**
+* Best use cases:
+  * Large system prompts
+  * Tool schemas
+  * Repeated RAG context
+* Supports:
+  * ✅ Cross-message caching
+  * ✅ Multi-component (tools + prompts + history)
+* Limitations:
+  * 1-hour lifetime
+  * ≥1024 tokens required
+  * Sensitive to **any change in input**
+
+***
+
+# 5. 🔧 Practical Architecture Insight
+
+**Where to apply in real systems:**
+
+* ✅ RAG pipelines → cache static context chunks
+* ✅ Agent frameworks → cache tool schemas + system instructions
+* ✅ Multi-turn enterprise apps → cache conversation prefix
+
+**Design pattern:**
+
+```
+[Tools] → cache breakpoint #1
+[System Prompt] → cache breakpoint #2
+[Conversation History] → cache breakpoint #3
+[User Query] → dynamic (not cached)
+```
+
+***
+
+# 6. 🔗 References
+
+* [Rules of prompt caching](https://anthropic.skilljar.com/claude-with-the-anthropic-api/287770)
+* <https://platform.claude.com/docs>
+* <https://platform.claude.com/docs/en/build-with-claude/extended-thinking>
+* <https://platform.claude.com/cookbook>
+
