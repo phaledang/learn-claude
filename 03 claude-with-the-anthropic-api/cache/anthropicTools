@@ -1,0 +1,27 @@
+const SOME_LONG_DESCRIPTION = "...";
+
+// Tool in Anthropic format
+const anthropicTools = [{
+  name: "get_weather",
+  description: SOME_LONG_DESCRIPTION,
+  input_schema: {
+    type: "object",
+    properties: {
+      location: {
+        type: "string",
+        description: "Location to get the weather for",
+      },
+      unit: {
+        type: "string",
+        description: "Temperature unit to return",
+      },
+    },
+    required: ["location"],
+  },
+  // Tell Anthropic to cache this tool
+  cache_control: { type: "ephemeral" },
+}]
+
+const modelWithCachedTools = modelWithCaching.bindTools(anthropicTools);
+
+await modelWithCachedTools.invoke("what is the weather in SF?");
