@@ -221,6 +221,5 @@ ENTRYPOINT → entrypoint.sh
 
 ***
 
-## Optional next step
-
-Provide `entrypoint.sh` → a **deep execution flow (startup sequence + envsubst + service boot order)** can be mapped.
+# Source
+https://github.com/trongnguyenbinh/Claude-Code-Observability/tree/main/allinone
