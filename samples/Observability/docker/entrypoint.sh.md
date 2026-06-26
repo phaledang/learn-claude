@@ -285,4 +285,5 @@ fi
 
 ***
 
-If needed, can generate **architecture diagram (container → nginx → services)** or map this to **Kubernetes (InitContainer + ConfigMap + Sidecar)**.
+# Source
+https://github.com/trongnguyenbinh/Claude-Code-Observability/blob/main/allinone/entrypoint.sh
