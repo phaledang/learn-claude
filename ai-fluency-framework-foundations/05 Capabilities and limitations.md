@@ -6,6 +6,7 @@
 ***
 
 ## 2️⃣ Key concepts
+<img width="1513" height="757" alt="image" src="https://github.com/user-attachments/assets/d6bb1840-3689-47c3-b83f-dfa76fddf48a" />
 
 ### 2.1 What is Generative AI
 
