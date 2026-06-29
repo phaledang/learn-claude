@@ -1,0 +1,167 @@
+# Generative AI fundamentals
+## 1. Source
+
+* Active page: **[Generative AI fundamentals](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)**
+
+***
+
+## 2. Key Concepts
+
+### 2.1 What is Generative AI
+
+* Type of AI focused on **creating new content** (text, code, images, etc.) rather than only analyzing existing data. [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+* Core distinction:
+  * Traditional AI → classification, prediction
+  * Generative AI → **content generation**
+
+***
+
+### 2.2 Core Technologies Behind Generative AI
+
+* Built on **Large Language Models (LLMs)** such as Claude. [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+* Enabled by:
+  * **Transformer architecture** (key algorithmic breakthrough) [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+  * **Large-scale training datasets** [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+  * **High-performance computing infrastructure** [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+
+***
+
+### 2.3 How Generative AI Works
+
+* Training process:
+  * **Pre-training** → model learns general language patterns from massive datasets [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+  * **Fine-tuning** → adjusts behavior for specific tasks or alignment [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+
+* Key concepts:
+  * **Context window** → amount of input the model can consider at once [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+  * **Emergent capabilities** → unexpected abilities that appear at scale [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+
+***
+
+### 2.4 Capabilities of Generative AI
+
+* Generate human-like:
+  * Text (documentation, chat, summaries)
+  * Code
+  * Creative content
+* Can assist in:
+  * Automation of knowledge work
+  * Decision support (when guided properly)
+
+***
+
+### 2.5 Limitations (Important for Architect-level understanding)
+
+*(The page mentions capabilities & limitations but does not list details explicitly)* [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+
+* Not explicitly detailed in the page content
+* Practical implications (architect perspective):
+  * Requires validation (non-deterministic outputs)
+  * Depends heavily on prompt quality
+  * Limited by context window
+
+***
+
+## 3. Q\&A
+
+### Q1. What defines generative AI?
+
+* AI systems that **create new content** instead of only analyzing data. [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+
+***
+
+### Q2. What is the key architecture behind modern LLMs?
+
+* **Transformer architecture**. [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+
+***
+
+### Q3. What are the two main training phases?
+
+* Pre-training
+* Fine-tuning [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+
+***
+
+### Q4. What is a context window?
+
+* The **amount of input data the model can process at once**. [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+
+***
+
+### Q5. What are emergent capabilities?
+
+* **Unexpected abilities** that arise as model scale increases. [\[Generative...ndamentals\]](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
+
+***
+
+## 4. Quiz
+
+### Question 1
+
+What is the primary function of generative AI?
+
+* A. Classify data
+* B. Predict outcomes
+* C. Generate new content
+* D. Store information
+
+✅ **Answer:** C
+
+***
+
+### Question 2
+
+Which architecture is foundational to LLMs?
+
+* A. CNN
+* B. RNN
+* C. Transformer
+* D. Decision Tree
+
+✅ **Answer:** C
+
+***
+
+### Question 3
+
+Which is NOT part of the training process?
+
+* A. Pre-training
+* B. Fine-tuning
+* C. Data labeling during inference
+* D. Model adjustment
+
+✅ **Answer:** C
+
+***
+
+### Question 4
+
+What does “context window” refer to?
+
+* A. Training dataset size
+* B. Input length the model can process
+* C. Number of model layers
+* D. Output tokens
+
+✅ **Answer:** B
+
+***
+
+### Question 5
+
+Emergent capabilities are:
+
+* A. Pre-programmed features
+* B. Errors in the model
+* C. Unexpected abilities at scale
+* D. Training failures
+
+✅ **Answer:** C
+
+***
+
+## 5. References
+
+* [Generative AI fundamentals](https://anthropic.skilljar.com/ai-fluency-framework-foundations/291879)
