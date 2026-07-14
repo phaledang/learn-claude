@@ -15,6 +15,8 @@ Reference: [\[Streaming\]](https://anthropic-partners.skilljar.com/claude-in-ama
 * Streaming creates a more responsive and interactive user experience. [\[Streaming\]](https://anthropic-partners.skilljar.com/claude-in-amazon-bedrock/276721)
 
 ### Traditional Response Flow
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4c052767-d7aa-4843-ad7e-50f079d28cd8" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9630b1bd-6f3e-49d7-b24a-516b2afc568b" />
 
 ```text
 User Request
