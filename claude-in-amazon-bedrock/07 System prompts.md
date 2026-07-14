@@ -1,4 +1,4 @@
-# Learn From This Page
+# System prompts
 
 **Source:**  
 Anthropic Partners Skilljar – *Claude with Amazon Bedrock > System prompts*  
