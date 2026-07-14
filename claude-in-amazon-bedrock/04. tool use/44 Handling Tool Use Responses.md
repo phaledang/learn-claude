@@ -27,6 +27,7 @@ Why this matters:
 ## 2. Tool Choice Configuration
 
 The `toolChoice` parameter controls when Claude uses tools.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/508b94e9-5e25-4e43-9614-ef5e7fa98026" />
 
 ### Auto
 
