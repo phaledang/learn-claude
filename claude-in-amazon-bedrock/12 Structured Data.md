@@ -104,6 +104,7 @@ text = chat(
     stop_sequences=["```"]
 )
 ````
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c83a8776-6567-4369-a1d8-8b6b605f75e2" />
 
  [\[Structured data\]](https://anthropic-partners.skilljar.com/claude-in-amazon-bedrock/276724)
 
