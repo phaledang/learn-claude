@@ -142,6 +142,7 @@ Arguments for the tool
 ***
 
 ## 5. Conversation Flow with Tools
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ef993370-d136-44dd-bb83-fb0a5cec24fd" />
 
 ### Step 1
 
