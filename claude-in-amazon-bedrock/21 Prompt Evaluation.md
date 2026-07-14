@@ -10,6 +10,7 @@
 # Key Concepts
 
 ## 1. Why Prompt Evaluation Matters
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/15f21f63-6dd6-4f19-8dab-89d06ba109d0" />
 
 When building AI applications, **writing a prompt is only the beginning**. Two complementary disciplines are needed:
 
@@ -69,6 +70,7 @@ Instead of guessing if a prompt is good, evaluation provides objective evidence.
 ***
 
 ## 4. The Three Paths After Writing a Prompt
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fecbfe48-b8a8-4d18-8ddd-3fe77d16599c" />
 
 ### Option 1: Test Once
 
