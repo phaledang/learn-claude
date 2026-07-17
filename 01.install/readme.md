@@ -1,3 +1,22 @@
+## 𝘀𝗲𝘁𝘂𝗽 :
+1. Install Ollama
+2. Pull a coding model
+```
+ollama pull qwen2.5-coder
+```
+3. Install Claude Code
+```
+npm install -g @anthropic-ai/claude-code
+```
+5. Point to localhost
+```
+export ANTHROPIC_AUTH_TOKEN=ollama
+export ANTHROPIC_BASE_URL=http://localhost:11434
+```
+6. Run it
+```
+claude --model qwen2.5-coder
+```
 ## Installing Ollama on Ubuntu
 
 Ollama enables you to run large language models locally on Ubuntu, offering privacy, control, and offline AI inference capabilities. Follow these steps to install and verify Ollama on your system.
