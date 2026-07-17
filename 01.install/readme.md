@@ -1,4 +1,4 @@
-## 𝘀𝗲𝘁𝘂𝗽 :
+## S𝗲𝘁𝘂𝗽 :
 1. Install Ollama
 2. Pull a coding model
 ```
