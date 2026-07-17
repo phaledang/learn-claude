@@ -4,11 +4,11 @@ Ollama enables you to run large language models locally on Ubuntu, offering priv
 
 * Update your system’s package list and upgrade installed packages by running:
   
-  `sudo apt update && sudo apt upgrade -y.
+  ``sudo apt update && sudo apt upgrade -y.
 
 * Install Ollama using the official installation script:
   
-  `curl -fsSL https://ollama.com/install.sh | sh.
+  ``curl -fsSL https://ollama.com/install.sh | sh.
 
 Wait for the script to complete; it will install the Ollama binary, create a dedicated user, and set up a systemd service.
 
