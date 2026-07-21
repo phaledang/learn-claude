@@ -1,0 +1,16 @@
+# To avoid using subagents to much, update claude.md
+Use subagents only when:
+
+- The task is large or complex.
+- Independent investigation is needed.
+- Multiple files or domains should be explored in parallel.
+- Context isolation is beneficial.
+- Expected output is large.
+
+Do NOT use subagents for:
+
+- Simple code edits
+- Small refactoring
+- Single-file modifications
+- Short explanations
+- Quick questions
